@@ -1,8 +1,6 @@
 
 body{
     background-color: rgb(173, 231, 233);
-    margin-left: 550px;
-    margin-right: 550px;
 }
 
 .adding{
@@ -49,6 +47,8 @@ body{
     border-radius: 30px;
     margin-top: 70px;
     margin-bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
     padding-top: 35px;
     padding-bottom: 35px;
     color: white
