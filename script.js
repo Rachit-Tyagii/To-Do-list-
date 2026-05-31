@@ -14,7 +14,7 @@ function add() {
 
     const newDivEl = document.createElement ("div");
     newDivEl.setAttribute("id", ctr);
-    newDivEl.style="font-size: 20px; font-weight: 600; display: flex; justify-content: space-between; margin-bottom: 10px; margin-top: 10px;"
+    newDivEl.style="font-size: 20px; font-weight: 600; display: flex; justify-content: space-between; margin-bottom: 10px; margin-top: 10px; margin-left: 575px; margin-right: 575px;"
 
     newDivEl.innerHTML = "<div>" + value + '</div><button class="deleting" onclick="deleteTODO(' + ctr + ')">Delete';
 
